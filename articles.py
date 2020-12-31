@@ -48,7 +48,7 @@ def articleprinter(paper_variable):
 articleprinter(bbc_paper)
 
 for x in range(len(bbc_output)):   ##use if statement here to filter results e.g if "Boris" in bbc_output[x][1]:
-	print(bbc_output[x][0])
+	print("Article title"+bbc_output[x][0])
 	print("Language used: "+bbc_output[x][3])
 
 
